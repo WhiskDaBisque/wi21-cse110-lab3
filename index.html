@@ -25,14 +25,32 @@
             <p>
                 Chess has been around for over a millenia and recently it has been growing in popularity.<br> 
                 I recently got back into chess and have been following up through youtube. Here are some <br>
-                of the channels I am subscribed to.<br>
+                of the channels I am subscribed to.
+            </p><br>
                 <ul>
                     <li>Agadmators chess channel</li>
                     <li>GMHikaru</li>
                     <li>GothamChess</li>
                 </ul>
-            </p>
-
+            
+                <label for="chess players">Choose a player:</label>
+                <select id="chess-select">
+                    <optgroup label="Professional Chess Players">
+                        <option>Hikaru Nakamura</option>
+                        <option>Magnus Carlsen</option>
+                        <option>Bobby Fischer</option>
+                        <option>Viswanathan Anand</option>
+                        <option>Mikhail Tal</option>
+                        <option>Paul Morphy</option>
+                        <option>Wesley So</option>
+                        <option>Garry Kasparov</option>
+                        <option>Fabiano Caruana</option>
+                    </optgroup>
+                </select>   
+                <img src="Hikaru.PNG" alt="Hikaru Nakamura" width="250" height="300">
+                <img src="Magnus.PNG" alt="Magnus Carlsen" width="250" height="300">
+                <img src="Bobby.PNG" alt="Bobby Fischer"width="300" height="300">
+                <img src="Vishy.PNG" alt="Viswanathan Anand" width="300" height="300">
             <h3>Information of professional Chess players</h3>
             <table style="width:100%">
                 <tr>
@@ -41,63 +59,87 @@
                     <th>Elo</th>
                 </tr>
                 <tr>
-                    <td>Hikaru Nakamura</td>
+                    <th scope="row">Hikaru Nakamura</th>
                     <td>33</td>
                     <td>2736</td>
                 </tr>
                 <tr>
-                    <td>Magnus Carlsen</td>
+                    <th scope="row">Magnus Carlsen</th>
                     <td>30</td>
                     <td>2862</td>    
                 </tr>
                 <tr>
-                    <td>Bobby Fischer</td>
+                    <th scope="row">Bobby Fischer</th>
                     <td>65(deceased)</td>
                     <td>2881</td>
                 </tr>
                 <tr>
-                    <td>Viswanathan Anand</td>
+                    <th scope="row">Viswanathan Anand</th>
                     <td>51</td>
                     <td>2753</td>
                 </tr>
                 <tr>
-                    <td>Mikhail Tal</td>
+                    <th scope="row">Mikhail Tal</th>
                     <td>65(deceased)</td>
                     <td>2705</td>
                 </tr>
 
                 <tr>
-                    <td>Paul Morphy</td>
+                    <th scope="row">Paul Morphy</th>
                     <td>47(deceased)</td>
                     <td>2638</td>
                 </tr>
                 <tr>
-                    <td>Wesley So</td>
+                    <th scope="row">Wesley So</th>
                     <td>27</td>
                     <td>2770</td>
                 </tr>
                 <tr>
-                    <td>Garry Kasparov</td>
+                    <th scope="row">Garry Kasparov</th>
                     <td>57</td>
                     <td>2812</td>
                 </tr>
-                    <td>Fabiano Caruana</td>
+                    <th scope="row">Fabiano Caruana</th>
                     <td>28</td>
                     <td>2844</td>
             </tr>
             </table>
             <br><br>
+
             <details>
                 <summary>Expand to view a chess video</summary>
-            <video controls width="250">
-                <iframe>
-                    <source src="https://www.youtube.com/watch?v=8vkXrXDe8T8&ab_channel=agadmator%27sChessChannel">
-                </iframe>
-                Video Is not Available
-            </video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cQiYWl9Vb_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </details>
         </section>
 
+        <section>
+            <figure>
+                <figcaption>A Chill Song:</figcaption>
+                <audio
+                    controls
+                    src="MitiS feat. Tedy - By My Side  (Original Mix).mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                </audio>
+            </figure>
+        </section>
+
+        <section>
+
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                  <label for="name">Enter your name: </label>
+                  <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-example">
+                  <label for="email">Enter your email: </label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-example">
+                  <input type="submit" value="Subscribe!">
+                </div>
+              </form>
+        </section>
         <h3>Header 3</h3>
     </body> 
 
