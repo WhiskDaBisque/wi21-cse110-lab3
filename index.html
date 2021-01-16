@@ -13,7 +13,7 @@
     
     <body>
         <main style="background-color:powderblue;">
-            <h1>Welcome to my website</h1>
+            <h1>Welcome To My Website</h1>
         </main> 
 
         <section> 
@@ -24,8 +24,8 @@
             </header>
             <p>
                 Chess has been around for over a millenia and recently it has been growing in popularity.<br> 
-                I recently got back into chess and have been following up through youtube. Here are some <br>
-                of the channels I am subscribed to.
+                I recently got back into chess and have been following up a lot through youtube. Here are some <br>
+                of the channels whose content I enjoy.
             </p><br>
                 <ul>
                     <li>Agadmators chess channel</li>
@@ -51,6 +51,7 @@
                 <img src="Magnus.PNG" alt="Magnus Carlsen" width="250" height="300">
                 <img src="Bobby.PNG" alt="Bobby Fischer" width="300" height="300">
                 <img src="Vishy.PNG" alt="Viswanathan Anand" width="300" height="300">
+
             <h3>Information of professional Chess players</h3>
             <table style="width:100%">
                 <tr>
@@ -58,60 +59,73 @@
                     <th>Age</th>
                     <th>Elo</th>
                 </tr>
+                <hr>
                 <tr>
                     <th scope="row">Hikaru Nakamura</th>
-                    <td>33</td>
-                    <td>2736</td>
+                    <th scope="row">33</th>
+                    <th scope="row">2736</th>
                 </tr>
                 <tr>
                     <th scope="row">Magnus Carlsen</th>
-                    <td>30</td>
-                    <td>2862</td>    
+                    <th scope="row">30</th>
+                    <th scope="row">2862</th>    
                 </tr>
                 <tr>
                     <th scope="row">Bobby Fischer</th>
-                    <td>65(deceased)</td>
-                    <td>2881</td>
+                    <th scope="row">65(deceased)</th>
+                    <th scope="row">2881</th>
                 </tr>
                 <tr>
                     <th scope="row">Viswanathan Anand</th>
-                    <td>51</td>
-                    <td>2753</td>
+                    <th scope="row">51</th>
+                    <th scope="row">2753</th>
                 </tr>
                 <tr>
                     <th scope="row">Mikhail Tal</th>
-                    <td>65(deceased)</td>
-                    <td>2705</td>
+                    <th scope="row">65(deceased)</th>
+                    <th scope="row">2705</th>
                 </tr>
 
                 <tr>
                     <th scope="row">Paul Morphy</th>
-                    <td>47(deceased)</td>
-                    <td>2638</td>
+                    <th scope="row">47(deceased)</th>
+                    <th scope="row">2638</th>
                 </tr>
                 <tr>
                     <th scope="row">Wesley So</th>
-                    <td>27</td>
-                    <td>2770</td>
+                    <th scope="row">27</th>
+                    <th scope="row">2770</th>
                 </tr>
                 <tr>
                     <th scope="row">Garry Kasparov</th>
-                    <td>57</td>
-                    <td>2812</td>
+                    <th scope="row">57</th>
+                    <th scope="row">2812</th>
                 </tr>
                     <th scope="row">Fabiano Caruana</th>
-                    <td>28</td>
-                    <td>2844</td>
+                    <th scope="row">28</th>
+                    <th scope="row">2844</th>
                 </tr>
             </table>
             <br><br>
-
+            
             <details>
                 <summary>Expand to view a chess video</summary>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/cQiYWl9Vb_g" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </details>
         </section>
 
+        <section>
+            <h2>Solve this riddle!~</h2>
+            <hr>
+            <details>
+                <summary>The more you take, the more you leave behind. What am I?</summary>
+                Footsteps
+            </details>     
+            <br><br><br>           
+        </section>
+
+        <h2>Music</h2>
+        <hr>
         <section>
             <figure>
                 <figcaption>Listen to MitiS-By My Side(feat. Tedy)</figcaption>
@@ -124,23 +138,67 @@
             </figure>
         </section>
 
-        <section>
+        <label for="numOfSongs">Number Of Songs You Enjoy:</label>
+        <br>
+        <input type="number" id="numOfSongs" name="numOfSongs" min="0" max="100">
 
+        <h3>Choose your Favourite Genres:</h3>
+        <section>
+            <div>
+                <input type="checkbox" checked>
+                <label for="scales">Indie Rock</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" checked>
+                <label for="horns">Pop</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" checked>
+                <label for="scales">EDM</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" checked>
+                <label for="scales">Classical</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" checked>
+                <label for="scales">Blues</label>
+            </div>
+
+            <div>
+                <input type="checkbox">
+                <label for="scales">Other</label>
+            </div>
+        </section>
+        
+        <section>
+            <br>
+            <label>Tell us what songs you enjoy:</label>
+            <br>
+            <textarea rows="6" cols="36">I've really enjoyed listening to</textarea>
+        </section>
+        
+        <section>
+            <h3>Sign Up to be kept posted</h3>
+            <hr>
             <form method="get" class="form-example">
                 <div class="form-example">
-                  <label for="name">Enter your name: </label>
-                  <input type="text" name="name" id="name" required>
+                    <label for="name">Enter your name: </label>
+                    <input type="text" name="name" id="name" required>
                 </div>
                 <div class="form-example">
-                  <label for="email">Enter your email: </label>
-                  <input type="email" name="email" id="email" required>
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div class="form-example">
-                  <input type="submit" value="Subscribe!">
+                    <input type="submit" value="Sign Up!">
                 </div>
-              </form>
+            </form>
         </section>
-        <h3>Header 3</h3>
     </body> 
 
 </html>
