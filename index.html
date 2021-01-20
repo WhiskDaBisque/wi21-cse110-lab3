@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My First Website</title>
+        
+        <style>
+            main {color:rgb(14, 13, 13);}
+        </style>
+    </head>
+    
+    <body>
+        <main style="background-color:powderblue;">
+            <h1>Welcome To My Website</h1>
+        </main> 
+
+        <section> 
+            <header> 
+                <h2> Chess </h2>
+                <hr>
+                <h3> What's it all about?</h3>
+            </header>
+            <p>
+                Chess has been around for over a millenia and recently it has been growing in popularity.<br> 
+                I recently got back into chess and have been following up a lot through youtube. Here are some <br>
+                of the channels whose content I enjoy.
+            </p><br>
+                <ul>
+                    <li>Agadmators chess channel</li>
+                    <li>GMHikaru</li>
+                    <li>GothamChess</li>
+                </ul>
+            
+                <label>Choose a player:</label>
+                <select id="chess-select">
+                    <optgroup label="Professional Chess Players">
+                        <option>Hikaru Nakamura</option>
+                        <option>Magnus Carlsen</option>
+                        <option>Bobby Fischer</option>
+                        <option>Viswanathan Anand</option>
+                        <option>Mikhail Tal</option>
+                        <option>Paul Morphy</option>
+                        <option>Wesley So</option>
+                        <option>Garry Kasparov</option>
+                        <option>Fabiano Caruana</option>
+                    </optgroup>
+                </select>   
+                <img src="Hikaru.PNG" alt="Hikaru Nakamura" width="250" height="300">
+                <img src="Magnus.PNG" alt="Magnus Carlsen" width="250" height="300">
+                <img src="Bobby.PNG" alt="Bobby Fischer" width="300" height="300">
+                <img src="Vishy.PNG" alt="Viswanathan Anand" width="300" height="300">
+
+            <h3>Information of professional Chess players</h3>
+            <table style="width:100%">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Elo</th>
+                </tr>
+                <tr>
+                    <th scope="row">Hikaru Nakamura</th>
+                    <th scope="row">33</th>
+                    <th scope="row">2736</th>
+                </tr>
+                <tr>
+                    <th scope="row">Magnus Carlsen</th>
+                    <th scope="row">30</th>
+                    <th scope="row">2862</th>    
+                </tr>
+                <tr>
+                    <th scope="row">Bobby Fischer</th>
+                    <th scope="row">65(deceased)</th>
+                    <th scope="row">2881</th>
+                </tr>
+                <tr>
+                    <th scope="row">Viswanathan Anand</th>
+                    <th scope="row">51</th>
+                    <th scope="row">2753</th>
+                </tr>
+                <tr>
+                    <th scope="row">Mikhail Tal</th>
+                    <th scope="row">65(deceased)</th>
+                    <th scope="row">2705</th>
+                </tr>
+
+                <tr>
+                    <th scope="row">Paul Morphy</th>
+                    <th scope="row">47(deceased)</th>
+                    <th scope="row">2638</th>
+                </tr>
+                <tr>
+                    <th scope="row">Wesley So</th>
+                    <th scope="row">27</th>
+                    <th scope="row">2770</th>
+                </tr>
+                <tr>
+                    <th scope="row">Garry Kasparov</th>
+                    <th scope="row">57</th>
+                    <th scope="row">2812</th>
+                </tr>
+                <tr>
+                    <th scope="row">Fabiano Caruana</th>
+                    <th scope="row">28</th>
+                    <th scope="row">2844</th>
+                </tr>
+            </table>
+            <br><br>
+            
+            <details>
+                <summary>Expand to view a chess video</summary>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cQiYWl9Vb_g" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </details>
+        </section>
+
+        <section>
+            <h2>Solve this riddle!~</h2>
+            <hr>
+            <details>
+                <summary>The more you take, the more you leave behind. What am I?</summary>
+                Footsteps
+            </details>     
+            <br><br><br>           
+        </section>
+
+        <h2>Music</h2>
+        <hr>
+        <section>
+            <figure>
+                <figcaption>Listen to MitiS-By My Side(feat. Tedy)</figcaption>
+                <audio
+                    controls
+                    src="ByMySide.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                </audio>
+            </figure>
+        </section>
+
+        <label for="numOfSongs">Number Of Songs You Enjoy:</label>
+        <br>
+        <input type="number" id="numOfSongs" name="numOfSongs" min="0" max="100">
+
+        <h3>Choose your Favourite Genres:</h3>
+        <section>
+            <div>
+                <input type="checkbox" checked>
+                <label>Indie Rock</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" checked>
+                <label>Pop</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" checked>
+                <label>EDM</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" checked>
+                <label>Classical</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" checked>
+                <label>Blues</label>
+            </div>
+
+            <div>
+                <input type="checkbox">
+                <label>Other</label>
+            </div>
+        </section>
+        
+        <section>
+            <br>
+            <label>Tell us what songs you enjoy:</label>
+            <br>
+            <textarea rows="6" cols="36">I've really enjoyed listening to</textarea>
+        </section>
+        
+        <section>
+            <h3>Sign Up to be kept posted</h3>
+            <hr>
+            <form method="get" class="form-example">
+                <div class="form-example">
+                    <label for="name">Enter your name: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-example">
+                    <input type="submit" value="Sign Up!">
+                </div>
+            </form>
+        </section>
+    </body> 
+
+</html>
