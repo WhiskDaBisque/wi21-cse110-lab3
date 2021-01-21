@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(167, 243, 243);
+}
+
+h1 {
+    color: rgb(10, 10, 12);
+    margin-left: 20px;
+}
+h2 {
+    font-family: system-ui;
+}
+
+h3 {
+    font-family: Georgia;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+h1.heading {
+    font-family: Hallo Sans;
+
+    text-align: center;
+
+    background-color: rgb(155, 156, 247);
+
+    border-style: solid;
+    border-color: rgb(31, 27, 26);
+    border-width: 0 0 0 10px;
+    border-radius: 0 48% 0 0 ;
+
+    padding: 1em;
+    margin: 20px 0px 20px 0;
+}
