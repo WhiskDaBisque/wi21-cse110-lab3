@@ -7,18 +7,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
             <header>
-                <h1 class="intro">Welcome 2 To My Website</h1>
-                <div class="topnav">
+                
+                <div class="topnav" >
+                    <h1 class="intro">Welcome To My Website</h1>
                     <a ><svg width="20" height="20">
-                        <circle cx="15" cy="15" r="7" stroke="green" stroke-width="4" fill="yellow" />
+                        <circle cx="10" cy="10" r="10" stroke="green" stroke-width="4" fill="yellow" />
                       </svg></a>
-                    <a class="active" href="#home">Home</a>
-                    <a class="active" href="#Music">Music</a>
+                    <a class="hover" href="#home">Home</a>
+                    <a class="hover" href="#music">Music</a>
                 </div>
             </header>
             <section>
@@ -30,16 +34,28 @@
         
             </footer>
 
-        <section> 
+        <section class="special-font"> 
                 <h2> Chess </h2>
                 <hr>
+                     
+        <section class="photo">
+            <div> <img src="images/rook.jfif"> </div>
+            <div> <img src="images/knight.jfif"> </div>
+            <div> <img src="images/bishop.jfif"> </div>
+            <div> <img src="images/queen.jfif"> </div>
+            <div> <img src="images/king.jpg"> </div>
+            <div> <img src="images/bishop.jfif"> </div>
+            <div> <img src="images/knight.jfif"> </div>
+            <div> <img src="images/rook.jfif"> </div>
+        </section>
                 <h3> What's it all about?</h3>
-            
-            <p>
-                Chess has been around for over a millenia and recently it has been growing in popularity.<br> 
-                I recently got back into chess and have been following up a lot through youtube. Here are some <br>
-                of the channels whose content I enjoy.
-            </p><br>
+            <article>
+                <p>
+                    Chess has been around for over a millenia and recently it has been growing in popularity.<br> 
+                    I recently got back into chess and have been following up a lot through youtube. Here are some <br>
+                    of the channels whose content I enjoy.
+                </p><br>
+            </article>
                 <ul>
                     <li>Agadmators chess channel</li>
                     <li>GMHikaru</li>
@@ -60,60 +76,62 @@
                         <option>Fabiano Caruana</option>
                     </optgroup>
                 </select>   
-                <img src="Hikaru.PNG" alt="Hikaru Nakamura" width="250" height="300">
-                <img src="Magnus.PNG" alt="Magnus Carlsen" width="250" height="300">
-                <img src="Bobby.PNG" alt="Bobby Fischer" width="300" height="300">
-                <img src="Vishy.PNG" alt="Viswanathan Anand" width="300" height="300">
-
+                <section class="photo">
+                    <div> <a href="https://www.youtube.com/channel/UCweCc7bSMX5J4jEH7HFImng"> <img src="images/hikaru.jfif"></a> </div>
+                    <div> <a href="https://www.youtube.com/watch?v=skCZZUC6DG4&ab_channel=TwitchClips"> <img src="images/magnus.jpg"></a> </div>
+                    <div> <a href="https://www.youtube.com/channel/UCweCc7bSMX5J4jEH7HFImng"> <img src="images/anand.jfif"></a> </div>
+                    <div> <a href="https://www.youtube.com/channel/UCweCc7bSMX5J4jEH7HFImng"> <img src="images/bobby.jpg"></a> </div>
+                </section>
+              
             <h3>Information of professional Chess players</h3>
-            <table style="width:100%">
-                <tr>
+            <table >
+                <tr class="container">
                     <th>Name</th>
                     <th>Age</th>
                     <th>Elo</th>
                 </tr>
-                <tr>
+                <tr class="container">
                     <th scope="row">Hikaru Nakamura</th>
                     <th scope="row">33</th>
                     <th scope="row">2736</th>
                 </tr>
-                <tr>
+                <tr class="container">
                     <th scope="row">Magnus Carlsen</th>
                     <th scope="row">30</th>
                     <th scope="row">2862</th>    
                 </tr>
-                <tr>
+                <tr class="container"> 
                     <th scope="row">Bobby Fischer</th>
                     <th scope="row">65(deceased)</th>
                     <th scope="row">2881</th>
                 </tr>
-                <tr>
+                <tr class="container">
                     <th scope="row">Viswanathan Anand</th>
                     <th scope="row">51</th>
                     <th scope="row">2753</th>
                 </tr>
-                <tr>
+                <tr class="container">
                     <th scope="row">Mikhail Tal</th>
                     <th scope="row">65(deceased)</th>
                     <th scope="row">2705</th>
                 </tr>
 
-                <tr>
+                <tr class="container">
                     <th scope="row">Paul Morphy</th>
                     <th scope="row">47(deceased)</th>
                     <th scope="row">2638</th>
                 </tr>
-                <tr>
+                <tr class="container">
                     <th scope="row">Wesley So</th>
                     <th scope="row">27</th>
                     <th scope="row">2770</th>
                 </tr>
-                <tr>
+                <tr class="container">
                     <th scope="row">Garry Kasparov</th>
                     <th scope="row">57</th>
                     <th scope="row">2812</th>
                 </tr>
-                <tr>
+                <tr class="container">
                     <th scope="row">Fabiano Caruana</th>
                     <th scope="row">28</th>
                     <th scope="row">2844</th>
@@ -127,7 +145,8 @@
             </details>
         </section>
 
-        <section>
+        <hr>
+        <section id="grid">
             <h2>Solve this riddle!~</h2>
             <hr>
             <details>
@@ -141,10 +160,10 @@
         <hr>
         <section>
             <figure>
-                <figcaption>Listen to MitiS-By My Side(feat. Tedy)</figcaption>
+                <figcaption>Listen to Pixies - Where is my mind</figcaption>
                 <audio
                     controls
-                    src="ByMySide.mp3">
+                    src="Pixies - WHERE IS MY MIND.mp3">
                         Your browser does not support the
                         <code>audio</code> element.
                 </audio>
@@ -194,7 +213,7 @@
             <br>
             <textarea rows="6" cols="36">I've really enjoyed listening to</textarea>
         </section>
-        
+   
         <section>
             <h3>Sign Up to be kept posted</h3>
             <hr>
