@@ -1,3 +1,4 @@
+/* This CSS is a hot mess, my bad */
 body {
     background-color:#000000;
 }
@@ -8,21 +9,23 @@ body {
     }
 }
 
+*.warning {
+  background-color: red;
+}
+
 .special-font{
     font-family: 'Potta One', cursive;
 }
 
-
-h1 {
+section[class="r"] {
+  color: red;
+}
+h1 + h2 {
     color: rgb(16, 16, 17);
     margin-left: 20px;
 }
-h2 {
+h2, h3 {
     font-family: sans-serif;
-}
-
-h3 {
-    font-family: Georgia;
 }
 
 article > p {
@@ -31,11 +34,11 @@ article > p {
 }
 
 .intro {
-    font-family: sans-serif;
-
+    font-family: 'Bungee Inline', cursive;
+    position: stack;
     text-align: center;
 
-    background-color: rgb(32, 79, 180);
+    background-color: burlywood;
 
     border-style: solid;
     border-color: rgb(31, 27, 26);
@@ -46,16 +49,15 @@ article > p {
     margin: 20px 0px 20px 0;
 }
 
-*.warning {
-    color:red;
-}
-p[class] {
-    font-weight:100;
+.p {
+  max-width: 100px;
+  display:none;
 }
 .topnav {
-    background-color: rgb(103, 76, 228);
+    background-color: rgb(78, 173, 91);
     overflow: hidden;
     margin-top: 0;
+    position:relative;
   }
   
   /* Style the links inside the navigation bar */
@@ -76,8 +78,8 @@ p[class] {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #ffffff;
-    color: white;
+    background-color: #0c0b0b;
+    color: rgb(14, 12, 12);
   }
 
   .container {
@@ -87,7 +89,24 @@ p[class] {
     align-content: space-around;
     align-items: stretch;
     flex-flow:row-reverse;
+    flex-basis: auto;
     max-width:100%;
+  }
+
+  .container > div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color:burlywood;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    
+    flex-grow: 12;
+    justify-content: flex-start;
+    align-self: baseline;
   }
 
   .photo {
@@ -103,6 +122,7 @@ div > img {
 }
 
 div > a > img {
+    margin:auto;
     object-fit: fill;
     grid-template-columns: 500px 500px 500px 500px;
     width: 300px;

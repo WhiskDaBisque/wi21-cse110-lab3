@@ -9,3 +9,11 @@
 * Comfort level - How close am I to hitting my goal?
     On a scale of 1-10 with 1 being not probable to 10 being This is perfect, I am currently a 5.
     
+
+# Nathan Kim 1/22/21
+* What did I do yesterday?
+    I edited some of the html and css files to meet some of the criteria. 
+* What will I do today?
+    Finish the rest of the CSS
+* Comfort level - How close am I to hitting my goal?
+    I'm getting really close, but at the same time im miles away.
